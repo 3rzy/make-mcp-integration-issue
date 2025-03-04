@@ -1,0 +1,25 @@
+{
+  "name": "make-mcp-server",
+  "version": "1.0.0",
+  "description": "Serwer MCP (Model Context Protocol) dla integracji z platformą Make (dawniej Integromat)",
+  "main": "make-mcp-server.js",
+  "scripts": {
+    "start": "node make-mcp-server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "make",
+    "integromat",
+    "mcp",
+    "claude",
+    "ai"
+  ],
+  "author": "3rzy",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "ws": "^8.14.2"
+  }
+}
