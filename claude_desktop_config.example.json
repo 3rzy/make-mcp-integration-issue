@@ -1,0 +1,14 @@
+{
+  "mcpServers": {
+    "make": {
+      "command": "node",
+      "args": ["/Users/username/path/to/make-mcp-server/make-mcp-server.js"],
+      "env": {
+        "MAKE_API_TOKEN": "twój_token_api_make",
+        "PORT": "3001"
+      },
+      "url": "ws://localhost:3001",
+      "disabled": true
+    }
+  }
+}
