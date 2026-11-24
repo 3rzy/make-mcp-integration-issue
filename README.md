@@ -188,7 +188,7 @@ Próbowałem różnych konfiguracji w pliku `claude_desktop_config.json`, w tym:
 ```json
 "make": {
   "command": "node",
-  "args": ["/Users/krzyk/google-workspace-mcp/make-mcp-server/make-mcp-server.js"],
+  "args": ["/Users/YOUR_USERNAME/google-workspace-mcp/make-mcp-server/make-mcp-server.js"],
   "env": {
     "MAKE_API_TOKEN": "[token]",
     "PORT": "3001"
