@@ -1,3 +1,32 @@
+<!-- HYDRA_IDENTITY_CARD_START -->
+# make-mcp-integration-issue
+
+## 🆔 Karta Tożsamości Repozytorium (Hydra Ecosystem)
+
+| Pole | Wartość |
+| :--- | :--- |
+| **Status repozytorium** | `RESEARCH` |
+| **Status komponentów** | `REUSABLE_CODE_AND_ANALYSIS` |
+| **Cel** | Implementacja serwera MCP dla platformy automatyzacji Make (Integromat) w Node.js oraz udokumentowanie i zbadanie problemów komunikacyjnych protokołu MCP w Claude Desktop. |
+| **Rola w ekosystemie** | Projekt badawczy / postmortem zawierający działający kod klienta API Make oraz diagnozę błędów transportu stdio/SSE. |
+| **CURRENT (Stan bieżący)** | Pushed: 2025-03-04T20:13:07Z, HEAD SHA: 844a0efd5df332231d1e736cdacebca283a003ad (commit date: 2025-03-04T20:13:06Z), root files count: 6. Weryfikacja: 2026-11-24 via GitHub REST API. |
+| **TARGET (Stan docelowy)** | Wykorzystanie implementacji make-mcp-server.js do stworzenia sprawnego narzędzia w ekosystemie Hydra / integracji Make. |
+| **Zależności** | Node.js, Make.com REST API, Model Context Protocol SDK. |
+| **Supersedes (Zastępuje)** | Brak. |
+| **Superseded by (Zastąpione przez)** | Docelowe konektory Make w centralny moduł skilli i połączeń Hydry. |
+| **Źródło prawdy** | Repozytorium GitHub: 3rzy/make-mcp-integration-issue. |
+| **Owner** | Krzy (3rzy) |
+| **Ostatnia weryfikacja** | 2026-11-24 |
+
+### Klocki do ponownego wykorzystania (Reusable Blocks)
+Skrypt make-mcp-server.js realizujący połączenie z API Make, schematy narzędzi uruchamiania scenariuszy Make.
+
+### Rekomendacja porządkowa
+PROPOSE_KEEP_AS_REFERENCE: Cenny kod źródłowy integracji z Make i dokumentacja diagnostyczna MCP; archiwizacja po reimplementacji w Hydrze.
+
+---
+<!-- HYDRA_IDENTITY_CARD_END -->
+
 # Problem integracji Make z Claude poprzez MCP
 
 ## Opis problemu
